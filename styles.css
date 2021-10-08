@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(220, 245, 180);
+}
+
+h1,h3{
+    margin:0.5rem 0 0.5rem 0;
+    text-align: center;
+}
+
+.new-acc{
+    text-align: center;
+}
+
+/* Search bar */
+.searchbar{
+    border-radius: 200px;
+}
+
+section.mt-4{
+    margin-bottom: 10px;
+}
+
+/* Modal */
+#WrongWihtdrawMsg , #WrongPasswordMsg{
+    background-color: red;
+    padding: 0 4px;
+    border-radius: 5px;
+    margin-top: 4px;
+    color:white;
+    text-align: center;
+    display: none;
+}
+
+/* Cards */
+.apply-margin{
+    margin-top:1.5rem;
+    /* position: absolute; */
+    padding:1rem auto;
+}
+
+.card123{
+    border-radius: 10px;
+    color:white;
+    background: #242625;
+    margin:1rem 1rem;
+    transition: 0.2s all ease-in-out;
+}
+
+.card-content123{
+    margin: 10px auto;
+    border-radius: 50px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background: #191a19;
+    box-shadow:  16px 16px 44px #0a0a0a, 
+             -16px -16px 44px #282a28;
+    transition: 0.2s all ease-in-out;
+}
+
+.card123:hover{
+    margin-top: -10px;
+    background-color: cyan;
+}
+
+
+.apply-margin .col div{
+    margin:0.3rem;
+}
+
+.action-btn{
+    width:2em;
+    height: 2em; 
+    padding: 0;
+}
+
+.apply-margin .col .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.apply-margin .col .savebtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+/* #EFF3F4  SEARCH BAR*/
